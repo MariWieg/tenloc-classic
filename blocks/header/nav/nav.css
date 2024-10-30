@@ -1,0 +1,28 @@
+
+.header__nav_place_wrapper {
+    display: none;
+}
+
+.header__link {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--black_text_nav);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .header__nav {
+        margin-left: 82px;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .header__nav_place_wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+   
+}

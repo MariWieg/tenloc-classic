@@ -1,0 +1,9 @@
+.button_destinations {
+    width: 186px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--yellow_button);
+    font-weight: 700;
+
+}
