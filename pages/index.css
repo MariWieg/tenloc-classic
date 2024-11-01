@@ -2,11 +2,11 @@
 @import url('../vendor/variables.css');
 @import url('../assets/fonts/Montserrat.css');
 
-
+@import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/container/container.css');
 @import url('../blocks/header/burger/burger.css');
 @import url('../blocks/header/wrapper/wrapper.css');
 @import url('../blocks/header/nav/nav.css');
-@import url('../blocks/button_destinations/button_destinations.css');
+@import url('../blocks/button/button.css');
