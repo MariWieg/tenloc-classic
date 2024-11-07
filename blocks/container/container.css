@@ -6,6 +6,8 @@
 
 @media screen and (min-width: 1440px) {
     .container {
-        padding: 0 144px;
+        margin: 0 auto;
+        padding: 0 24px;
+        max-width: calc(var(--container-width) + (var(--container-padding) * 2));  
     }
 }

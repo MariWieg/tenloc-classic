@@ -1,5 +1,4 @@
 .logo {
-    margin-left: 15px;
     display: block;
     width: 100px;
     height: 30px;
@@ -11,6 +10,7 @@
 
 @media screen and (min-width: 1440px) {
     .logo {
+        margin: 0;
         width: 129px;
         height: 38px;
     }
