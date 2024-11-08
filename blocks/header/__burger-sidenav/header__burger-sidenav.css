@@ -1,0 +1,13 @@
+.header__burger-sidenav {
+    position: absolute;
+    top: 15px;
+    width: 206px;
+    height: 100vh;
+    border-radius: 15px;
+    background-color:rgb(173, 164, 164);
+    display: none;
+}
+
+.header__burger-sidenav.open {
+    display: block;
+}
