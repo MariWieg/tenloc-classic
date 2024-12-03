@@ -1,0 +1,12 @@
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+@media screen and (min-width: 1440px) {
+    .header__wrapper {
+       gap: 82px;
+    }
+}

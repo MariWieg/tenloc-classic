@@ -1,0 +1,71 @@
+.header {
+    padding-top: 20px;
+}
+
+.wrap-icon-heart {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: var(--light_gray_nav);  
+}
+
+.icon-heart {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background-image: url('../../assets/icons/icon-heart.svg');
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrap-login {
+    position: relative;
+    list-style: none; 
+    width: 85px;
+    height: 37px;
+    border-radius: 18px;
+    background-color: var(--light_gray_nav); 
+}
+
+.login {
+   position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .header {
+        padding-top: 31px;
+    } 
+
+    .wrap-icon-heart {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .icon-heart {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .wrap-login {
+        position: relative;
+        list-style: none; 
+        width: 114px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: var(--light_gray_nav); 
+    }
+    
+    .login {
+        position: absolute;
+        top: 12px;
+        left: 32px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+

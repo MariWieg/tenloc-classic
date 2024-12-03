@@ -1,1 +1,24 @@
 @import url('../vendor/normolize.css');
+@import url('../vendor/variables.css');
+@import url('../assets/fonts/Montserrat.css');
+
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__btn-wrapper/header__btn-wrapper.css');
+@import url('../blocks/header/__burger/header__burger.css');
+@import url('../blocks/header/__left-wrapper/header__left-wrapper.css');
+@import url('../blocks/header/__right-wrapper/header__right-wrapper.css');
+@import url('../blocks/header/__tooltip/header__tooltip.css');
+@import url('../blocks/header/__tooltip_item/header__tooltip-item.css');
+@import url('../blocks/header/__tooltip-list/header__tooltip-list.css');
+@import url('../blocks/header/__wrapper/header__wrapper.css');
+
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/container/container.css');
+
+
+@import url('../blocks/header/nav/nav.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/button_destinations.css');
+@import url('../blocks/button/button_login.css');

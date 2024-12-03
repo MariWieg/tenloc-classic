@@ -1,0 +1,8 @@
+.header__tooltip {
+    position: absolute;
+    bottom: -250px;
+    width: 206px;
+    border-radius: 15px;
+    background-color:rgb(173, 164, 164);
+    display: none;
+}

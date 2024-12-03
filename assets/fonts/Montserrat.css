@@ -1,0 +1,23 @@
+@font-face {    
+    font-family: 'montserrat';
+    src: url('./montserrat-cyrillic-400-normal.ttf'),         
+         url('./montserrat-cyrillic-400-normal.woff'),
+         url('./montserrat-cyrillic-400-normal.woff2');    
+    font-weight: 400;
+}  
+
+@font-face {    
+    font-family: 'montserrat';
+    src: url('./montserrat-cyrillic-700-normal.ttf'),         
+         url('./montserrat-cyrillic-700-normal.woff'),
+         url('./montserrat-cyrillic-700-normal.woff2');    
+    font-weight: 700;
+} 
+
+@font-face {    
+    font-family: 'montserrat';
+    src: url('./montserrat-cyrillic-800-normal.ttf'),         
+         url('./montserrat-cyrillic-800-normal.woff'),
+         url('./montserrat-cyrillic-800-normal.woff2');    
+    font-weight: 800;
+} 

@@ -1,0 +1,17 @@
+.logo {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-image: url('../../assets/img/logo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        margin: 0;
+        width: 129px;
+        height: 38px;
+    }
+}

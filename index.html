@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marina Wiegand">
+    <meta name="description" content="Web Developer Portfolio Website. Digital example of webpage">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Tenloc</title>
     <link href="./pages/index.css" rel="stylesheet" />
+    <script defer src="./js/index.js"></script>
 </head>
-<body>
-    
+<body class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left-wrapper">
+                    <div class="header__burger"></div>
+                    <div class="header__burger-nav" id="burger-nav"></div>
+                    <a href="#" class="logo"></a>
+                </div>               
+                <nav class="header__nav header__nav_place_wrapper">
+                    <div class="header__btn-wrapper">
+                        <button class="button button_destinations" id="header-btn" type="button">Destinations</button>
+                        <div class="header__tooltip" id="header-tooltip">
+                            <ul class="header__tooltip-list">
+                                <li class="header__tooltip-item">Dubai</li>
+                                <li class="header__tooltip-item">Istanbul</li>
+                                <li class="header__tooltip-item">Saint Petersburg</li>
+                                <li class="header__tooltip-item">Karelia</li>
+                                <li class="header__tooltip-item">Paris</li>
+                                <li class="header__tooltip-item">Berlin</li>
+                                <li class="header__tooltip-item">Rome</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="header__link">About</a>
+                    <a href="#" class="header__link">Contact Us</a>
+                </nav>
+                <div class="header__right-wrapper">
+                    <div class="wrap-icon-heart">
+                    <span class="icon-heart"></span>
+                </div>
+                <button class="button button_login" type="button">Log in</button>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
