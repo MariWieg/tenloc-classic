@@ -9,6 +9,7 @@
 @import url('../blocks/header/__burger/header__burger.css');
 @import url('../blocks/header/__burger-sidenav/header__burger-sidenav.css');
 @import url('../blocks/header/__burger-tooltip/header__burger-tooltip.css');
+@import url('../blocks/header/__burger-wrapper/header__burger-wrapper.css');
 @import url('../blocks/header/__icon-close/header__icon-close.css');
 @import url('../blocks/header/__left-wrapper/header__left-wrapper.css');
 @import url('../blocks/header/__right-wrapper/header__right-wrapper.css');
@@ -18,6 +19,7 @@
 @import url('../blocks/header/__wrapper/header__wrapper.css');
 
 @import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/logo-sidenav.css');
 @import url('../blocks/container/container.css');
 
 

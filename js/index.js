@@ -28,15 +28,13 @@ const burgerSidenav = document.getElementById('burger-sidenav');
 const burgerSidenavClose = document.getElementById('burger-sidenav-close');
 console.log(burgerSidenav)
 function openNav() {
-    // burgerSidenav.classList.add('open');
-    burgerSidenav.style.display = 'block';
+    burgerSidenav.classList.add('open');
+    
 }
 
 function closeNav() {
     console.log('closeNav');
-    //burgerSidenav.classList.remove('open');
-    burgerSidenav.style.display = 'none';
-
+    burgerSidenav.classList.remove('open');
 }
 
 burgerNav.addEventListener('click', openNav);
