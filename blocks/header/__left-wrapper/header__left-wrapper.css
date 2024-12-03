@@ -3,3 +3,9 @@
     align-items: center;
     gap: 15px;
 }
+
+@media screen and (min-width: 1440px) {
+    .header__left-wrapper {
+        gap: 0px;
+    }
+}
