@@ -1,6 +1,6 @@
-.header__burger-tooltip {
+.sidenav__navigation-menu {
     display: grid;
-    margin: 15px;
+    margin-top: 45px;
     gap: 15px;
     font-size:large;
 }

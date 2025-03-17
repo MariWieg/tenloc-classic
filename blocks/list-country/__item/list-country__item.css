@@ -1,0 +1,15 @@
+.list-country__item {
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 25px;
+}
+
+.list-country__item_tooltip {
+    border-bottom: solid 1px #ECECEC;
+}
+
+.list-country__item_sidenav {
+    padding: 4px 8px;
+    border-radius: 15px;
+    background-color: rgb(118, 118, 133);
+}

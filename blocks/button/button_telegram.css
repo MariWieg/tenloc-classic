@@ -1,0 +1,6 @@
+.button_telegram {
+    width: 186px;
+    height: 50px;
+    background-color: var(--blue_telegram);
+    margin-left: auto;
+}

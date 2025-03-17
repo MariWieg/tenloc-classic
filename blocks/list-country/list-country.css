@@ -1,0 +1,16 @@
+.list-country {
+    list-style: none;
+}
+
+.list-country_tooltip {
+    margin: 29px 26px;
+    width: 136px;
+    text-align: left;
+}
+
+.list-country_sidenav {
+    display: none;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}

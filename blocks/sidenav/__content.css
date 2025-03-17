@@ -1,0 +1,7 @@
+.sidenav__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 20px;
+    height: 100%;
+}
