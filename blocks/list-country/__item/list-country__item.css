@@ -11,5 +11,5 @@
 .list-country__item_sidenav {
     padding: 4px 8px;
     border-radius: 15px;
-    background-color: rgb(118, 118, 133);
+    background-color: var(--light_gray_nav);
 }
