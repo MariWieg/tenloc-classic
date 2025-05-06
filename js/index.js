@@ -24,15 +24,22 @@ headerBtn.addEventListener('mouseleave', () => {
 const burgerBtn = document.getElementById('burger-nav');
 const burgerSidenav = document.getElementById('burger-sidenav');
 const burgerSidenavClose = document.getElementById('burger-sidenav-close');
+const overlay = document.getElementById('overlay');
 
 function openNav() {
     burgerSidenav.classList.add('open'); 
-    console.log(111);
+    overlay.classList.add('overlay_visible');
 }
 
 function closeNav() {
     burgerSidenav.classList.remove('open');
+    overlay.classList.remove('overlay_visible');
+}
+
+function allclose() {
+    closeNav();
 }
 
 burgerBtn.addEventListener('click', openNav);
 burgerSidenavClose.addEventListener('click', closeNav);
+overlay.addEventListener('click', allclose)

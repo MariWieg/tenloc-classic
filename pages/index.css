@@ -13,7 +13,7 @@
 @import url('../blocks/header/__burger-wrapper/header__burger-wrapper.css');
 @import url('../blocks/header/__icon-close/header__icon-close.css');
 @import url('../blocks/header/__left-wrapper/header__left-wrapper.css');
-@import url('../blocks/header/__overlay/header__overlay.css');
+/* @import url('../blocks/header/__overlay/header__overlay.css'); */
 @import url('../blocks/header/__right-wrapper/header__right-wrapper.css');
 @import url('../blocks/header/__tooltip/header__tooltip.css');
 @import url('../blocks/header/__wrapper/header__wrapper.css');
@@ -35,7 +35,6 @@
 @import url('../blocks/button/button_telegram.css');
 
 @import url('../blocks/sidenav/sidenav.css');
-@import url('../blocks/sidenav/__content.css');
 @import url('../blocks/sidenav/__container.css');
 @import url('../blocks/sidenav/__header.css');
 @import url('../blocks/sidenav/__action-bar.css');
@@ -45,5 +44,5 @@
 @import url('../blocks/sidenav/__socialmedia.css');
 @import url('../blocks/sidenav/__footer-row.css');
 
-
+@import url('../blocks/overlay.css');
 
