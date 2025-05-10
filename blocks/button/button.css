@@ -1,6 +1,9 @@
 .button {
+    padding: 13px;
     border-radius: 25px;
     border: none;
     font-weight: 700;
-
+    font-size: 15px;
+    line-height: 24px;
+    background-color: var(--light_gray_nav);
 }
